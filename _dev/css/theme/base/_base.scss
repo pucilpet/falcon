@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+container {
+  max-width: 100%
+}
+
 ul {
   padding-left: 0;
   list-style: none;
