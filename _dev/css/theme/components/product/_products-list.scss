@@ -15,11 +15,17 @@
       }
 
       .layout-full-width & {
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(xs) {
+          @include make-col(6);
+        }
+        @include media-breakpoint-up(sm) {
           @include make-col(4);
         }
-        @include media-breakpoint-up(xl) {
+        @include media-breakpoint-up(md) {
           @include make-col(3);
+        }
+        @include media-breakpoint-up(xl) {
+          @include make-col(2);
         }
       }
     }
